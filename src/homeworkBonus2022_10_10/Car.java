@@ -4,12 +4,14 @@ import java.text.DecimalFormat;
 
 public class Car {
 
+    private final int INITIAL_FUEL_LEVEL = 0;
     private double fuelEfficiency; //km/litre
 
     private double fuelInFuelTank; //litre
 
     public Car(double fuelEfficiency) {
         this.fuelEfficiency = (fuelEfficiency < 0) ? 0 : fuelEfficiency;
+        fuelInFuelTank = INITIAL_FUEL_LEVEL;
     }
 
     public static void main(String[] args) {
