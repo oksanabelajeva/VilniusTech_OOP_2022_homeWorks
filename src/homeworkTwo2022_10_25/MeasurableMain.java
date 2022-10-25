@@ -3,7 +3,7 @@ package homeworkTwo2022_10_25;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class MeasurableRefactor {
+public class MeasurableMain {
 
     public static void main(String[] args) {
 
